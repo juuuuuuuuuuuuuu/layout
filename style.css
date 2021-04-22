@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  color: #fff;
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  width: 100px;
+  align-self: center;
+}
+
+.share {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+}
